@@ -1,0 +1,50 @@
+# Archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración específicos del entorno
+.vscode/
+*.code-workspace
+
+# Archivos temporales y de respaldo
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Archivos generados por máquinas virtuales
+*.vdi
+*.vmdk
+*.vbox*
+*.nvram
+*.vmem
+*.vmsn
+*.vmss
+*.iso
+
+# Archivos de sistemas de Linux/Unix
+*.pid
+*.sock
+
+# Archivos sensibles o personalizados
+*.env
+*.key
+*.pem
+*.crt
+
+# Capturas o archivos pesados si no se quieren subir al repositorio
+/capturas/
+/documentacion/*.pdf
+/documentacion/*.pptx
+/documentacion/*.docx
+
+# Salidas de scripts o pruebas
+/output/
+*.out
+
+# Otros
+__pycache__/
+*.pyc
